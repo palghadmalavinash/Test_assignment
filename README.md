@@ -16,3 +16,7 @@ Steps to Execute testcases:
    <br>a. Navigate to the Checkout directory.</b>
    <br>b. Run below command.</b>
    <br><b>pytest -k Agrostartest</b>
+
+<b> Executing API test case:</b>
+Follow all the above steps instead of step 2 do:
+   <br> Change the access_token in config.ini file
