@@ -1,8 +1,9 @@
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as ec
 from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.support import expected_conditions as ec
+from selenium.webdriver.support.ui import WebDriverWait
 
-from src.locators.amazon_locators import amazon_locators as al
+from src.locators.Amazon_UI.amazon_locators import amazon_locators as al
+
 
 class amazon(object):
 

@@ -10,7 +10,7 @@ Scenario Outline: Order iphone x with specfication 256GB and Grey color
     And add the product to cart
     And verify product is added to cart
     And proceed to buy the product
-    And enter the credentails in the login page as '<username>' and '<password>'
+    And enter the credentails in the login page as '< username >' and '< password >'
     And enter the new shipping address
     Then verify navigaton to the delivery options page
 

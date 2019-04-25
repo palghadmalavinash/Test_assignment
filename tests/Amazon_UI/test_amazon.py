@@ -7,9 +7,9 @@ from pytest_bdd import (
     parsers
 )
 
-from src.pages import amazon
+from src.pages.Amazon_UI import amazon
 
-scenarios("../feature/amazon.feature")
+scenarios("../../feature/Amazon_UI/amazon.feature")
 
 
 @pytest.fixture()
